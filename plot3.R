@@ -8,6 +8,6 @@ lines(datetime,  c$Sub_metering_3, type = "l",ylab = "Energy submetering", xlab 
 
 legend("topright",c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=1, lwd=2.5, col=c("black", "red", "blue"))
 
-dev.copy(png,filename = "Plot4.png",width = 480, height = 480, units = "px")
+dev.copy(png,filename = "Plot3.png",width = 480, height = 480, units = "px")
 dev.off()
 
