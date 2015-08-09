@@ -15,6 +15,6 @@ legend("topright",c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=1
 plot(datetime,  c$Global_reactive_power, type = "l",ylab = "Global_reactive_power", xlab = "datetime",col="black")
 
 
-dev.copy(png,filename = "Plot3.png",width = 480, height = 480, units = "px")
+dev.copy(png,filename = "Plot4.png",width = 480, height = 480, units = "px")
 dev.off()
 
